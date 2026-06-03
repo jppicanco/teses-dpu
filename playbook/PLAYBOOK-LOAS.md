@@ -57,7 +57,14 @@
 - **STJ Tema 1.018** — direito à opção pelo benefício mais vantajoso.
 - **STF ARE 639.337-AgR** — vedação ao retrocesso social.
 - **§ 14 do art. 20 da LOAS** (Lei 13.982/2020) — exclusão legal expressa de BPC/benefício de até 1 SM de idoso ≥65/PCD no cálculo para outro membro.
+- **STJ RR 185 (Tema 185)** — renda < ¼ SM = presunção **absoluta** de miserabilidade; acima, prova por outros meios.
+- **TNU Tema 369** — benefício previdenciário de membro idoso/PCD **superior** a 1 SM entra na renda per capita pelo **valor integral** (sem deduzir 1 SM). ⚠️ delimita o RR 640/Tema 312.
+- **TNU QO 20** — grupo familiar do art. 20, § 1º é **rol taxativo**; parente fora do rol (avó, tia, prima) não soma renda mesmo morando junto.
+- **TNU Tema 378 + Súmulas 29 e 80** — deficiência **≠** incapacidade laboral; exige **avaliação biopsicossocial** (não só perícia médica). Visão monocular = deficiência.
+- **STF Tema 807 (ARE 865.645)** — requisitos do BPC são matéria **infraconstitucional**; sem repercussão geral (teto recursal).
 - **TNU Tema 379** — validade do teto de 16% de famílias unipessoais por município no PBF (com exceções — ver C13).
+
+> 📚 **Texto oficial integral** dos precedentes (BNP/CJF, reproduzido sem alteração) em [`../jurisprudencia/base-jurisprudencial-LOAS-BPC.md`](../jurisprudencia/base-jurisprudencial-LOAS-BPC.md). Verificar trânsito em julgado/revisão antes de citar.
 
 ---
 
@@ -120,6 +127,8 @@ Renda per capita = **menor valor** entre (i) renda do último mês e (ii) média
 ### C3 — Renda de idoso / benefício de 1 SM de outro membro
 **Quando:** INSS computou aposentadoria/pensão/BPC de outro integrante (idoso ou PCD) no valor de até 1 SM.
 **Tese (T-C):** § 14 do art. 20 LOAS + art. 34 par. único Estatuto Idoso + **STJ Tema 640** (REsp 1.355.052/SP) + RE 567.985/580.963 + Tema 1.124 → benefício de 1 SM de idoso/PCD **não** compõe renda. Inclui renda de idoso 60-65 (Estatuto do Idoso, art. 1º) por interpretação sistemática. Argumento adicional: renda comprometida com a própria subsistência do idoso (ex.: irmão com acréscimo de 25% por necessidade de cuidados).
+**⚠️ Limite (TNU Tema 369):** a exclusão só alcança benefício **de até 1 SM**. Se o benefício do membro for **superior** a 1 SM, entra na renda per capita pelo **valor integral** — **não** se deduz a parcela de 1 SM. Nesse caso, mudar de estratégia: atacar pela composição familiar (T-B), dedução de gastos (T-D) ou miserabilidade no caso concreto (RG 27/STF; RR 185/STJ).
+**Atenção (TNU B.7):** a exclusão pressupõe que o titular do benefício seja **idoso/PCD** — benefício de pessoa **não idosa e sem deficiência** não se exclui por essa via.
 **Modelos:** `Material/SEI_8625482_Peticao.pdf` (irmã aposentada por idade); `Material/SEI_8647212_Oficio (1).pdf` (irmão idoso no mesmo domicílio).
 **Pedidos:** desbloqueio (T-A); desconsideração da renda; subsidiariamente flexibilização por despesas médicas; parcelas retidas.
 

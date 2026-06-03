@@ -27,7 +27,12 @@ playbook/
   PLAYBOOK-LOAS.md      Playbook por cenário (C1–C13): tese, base legal, modelo, pedidos
   INDICE-MATERIAL.md    Índice de modelos, normas e precedentes
 modelos/                Modelos de peça ANONIMIZADOS (placeholders [NOME], [CPF], [NB]…)
+jurisprudencia/
+  base-jurisprudencial-LOAS-BPC.md   Precedentes STF/STJ/TNU — texto oficial (BNP/CJF), sem alteração
 ```
+
+## Base jurisprudencial
+[`jurisprudencia/base-jurisprudencial-LOAS-BPC.md`](jurisprudencia/base-jurisprudencial-LOAS-BPC.md) reúne precedentes vinculantes (STF/STJ) e acórdãos recentes da TNU, reproduzidos **ipsis litteris** dos bancos oficiais (BNP/CNJ e CJF), com explicações do redator claramente separadas. Cobre: miserabilidade (RG 27/STF, RR 185/STJ), exclusão de renda (Tema 640/STJ, **Tema 369/TNU**), grupo familiar (QO 20/TNU), conceito de deficiência (Tema 378/TNU + Súmulas 29/80), TEA e teto recursal (Tema 807/STF).
 
 ---
 

@@ -25,6 +25,8 @@ A exclusão tem base legal expressa e jurisprudência vinculante:
 - **STF, RE 567.985/MT e RE 580.963/PR:** miserabilidade aferível no caso concreto;
 - Para idoso entre 60 e 65 anos, a exclusão se estende por interpretação sistemática (art. 1º do Estatuto do Idoso).
 
+> ⚠️ **Conferir antes de usar (TNU Tema 369):** a exclusão vale só para benefício **de até 1 SM**. Se o benefício do membro for **superior** a 1 SM, ele entra **integral** na renda — não há dedução de 1 SM. Nesse caso, migrar para as teses de composição familiar (modelo 01), dedução de gastos (modelo 04) ou miserabilidade no caso concreto. Texto oficial: `../jurisprudencia/base-jurisprudencial-LOAS-BPC.md` (B.2).
+
 ## 3. (Quando aplicável) Renda comprometida com a própria subsistência do idoso/PCD
 A renda do membro está comprometida com suas despesas pessoais e essenciais — [ex.: aposentadoria por invalidez com acréscimo de 25% por necessidade de cuidados permanentes] —, não havendo demonstração de que seja compartilhada ou revertida em favor do núcleo. Não pode, pois, ser considerada disponível para o sustento do(a) assistido(a).
 

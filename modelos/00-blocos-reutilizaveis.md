@@ -31,6 +31,8 @@ Trechos prontos para encaixar em qualquer peça de defesa/petição de BPC. Ajus
 > Não se computam na renda mensal bruta familiar (art. 8º da Portaria Conjunta MDS/INSS nº 34/2025): bolsa de estágio supervisionado; rendimentos de contrato de aprendizagem; auxílio por rompimento/colapso de barragem; **o BPC recebido por outro membro**; **o benefício previdenciário de até 1 (um) salário mínimo recebido por idoso ≥ 65 anos ou por pessoa com deficiência** (limitado a um por titular); e o auxílio-inclusão e a remuneração de seu beneficiário (para manutenção de BPC de outro familiar).
 >
 > No mesmo sentido, o § 14 do art. 20 da LOAS (Lei nº 13.982/2020) exclui expressamente do cálculo o BPC ou benefício previdenciário de até 1 SM concedido a idoso ≥ 65 ou PCD, para fins de concessão a outro idoso/PCD da mesma família.
+>
+> ⚠️ **Limite (TNU Tema 369):** a exclusão alcança apenas benefício **de até 1 (um) salário mínimo**. Benefício de valor **superior** entra no cálculo pelo **valor integral**, sem dedução parcial. Não usar este bloco quando o benefício do membro exceder 1 SM.
 
 ---
 
