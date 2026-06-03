@@ -89,21 +89,23 @@ Renda per capita = **menor valor** entre (i) renda do último mês e (ii) média
 
 ## 3. Tabela de roteamento — cenário → tese → modelo
 
-| # | Cenário do assistido | Tese(s) principal(is) | Modelo de peça |
-|---|---|---|---|
-| C1 | Concessão **indeferida** por cômputo do **Bolsa Família** na renda | Exclusão do PBF (NT 15); opção benefício mais vantajoso | `Material/Inicial-padrao. BPC LOAS. Concessao. Computo BF na renda (2).docx` (judicial JEF) |
-| C2 | Revisão/bloqueio por renda — **ex-cônjuge/companheiro** indevido no grupo | T-B + subsidiária Estatuto Idoso | `Material/SEI_8634335_Oficio (1).pdf` |
-| C3 | Revisão por renda — **idoso (60-65) ou benefício de 1 SM** de outro membro | T-C + Tema 640 + art. 34 Estatuto Idoso + § 14 art. 20 | `Material/SEI_8625482_Peticao.pdf` ; `Material/SEI_8647212_Oficio (1).pdf` |
-| C4 | Revisão por renda — **erro de apuração** (competência isolada) / filho separado de fato | T-E + T-B (art. 7º §1º II) + T-D | `Material/SEI_8632876_Oficio.pdf` |
-| C5 | Revisão por renda **PCD** — dedução de **gastos médicos** | T-D + T-A | `Material/SEI_8655368_Oficio (1).pdf` ; `Material/SEI_8645501_Oficio.pdf` |
-| C6 | Revisão **BPC criança/menor** (TEA) — atraso INSS + renda | T-D + T-A + tese TEA (NT 15, item 2.2.1) | `Material/SEI_8645508_Oficio.pdf` |
-| C7 | **Cadastral/CadÚnico** desatualizado; **mora do CRAS** na visita domiciliar (unipessoal) | Mora estatal (art. 2º §3º Lei 15.077/2024); reativação | INFORME 43, seção II (ver `Material/_informativo_extr.txt`) |
-| C8 | Revisão **biopsicossocial** PCD (perícia sem avaliação social; dispensado reavaliado) | Nulidade (Portaria 33 art. 5º dispensas; fluxo bifásico) | INFORME 43, seção IV |
-| C9 | **Nulidade** do processo revisional (inversão bloqueio→suspensão→cessação; sem notificação válida) | Nulidade (art. 47-D III; 90 dias; art. 5º LV CF; Lei 9.784/99) | `Material/SEI_8889677_Peticao (1).pdf` |
-| C10 | **Cessação** consumada → **reativação** administrativa | Reativação via ACT DPU-INSS (Portaria DIRBEN 993/2022) | `Material/SEI_8889677_Peticao (1).pdf` |
-| C11 | Indeferimento/cessação → **Recurso ao CRPS** (inclusive intempestivo) | Mérito + flexibilização da tempestividade | `Material/SEI_8966463_Peticao (1).pdf` |
-| C12 | Tutela coletiva — exclusão do PBF da renda em âmbito regional | ACP (NT 15 + tese exclusão PBF) | `Material/5002171-51.2026.4.03.6000-1774382918459-7572820-processo.pdf` |
-| C13 | **Bolsa Família** negado a **família unipessoal** pelo teto de 16%/município | Exceção do cadastro domiciliar (art. 6º §3º IX Portaria 897/2023) afasta o teto (Tema 379 TNU) | `Material/10361075120254013600_458597799_Acórdão.pdf` (precedente TR/SJMT) |
+| # | Cenário do assistido | Tese(s) principal(is) | Modelo de peça | Precedente (base) |
+|---|---|---|---|---|
+| C1 | Concessão **indeferida** por cômputo do **Bolsa Família** na renda | Exclusão do PBF (NT 15); opção benefício mais vantajoso | `Material/Inicial-padrao. BPC LOAS. Concessao. Computo BF na renda (2).docx` (judicial JEF) | RG 27/STF (A.1); RR 185/STJ (A.2) |
+| C2 | Revisão/bloqueio por renda — **ex-cônjuge/companheiro** indevido no grupo | T-B + subsidiária Estatuto Idoso | `Material/SEI_8634335_Oficio (1).pdf` | QO 20/TNU (B.4); RR 640/STJ (A.3) |
+| C3 | Revisão por renda — **idoso (60-65) ou benefício de 1 SM** de outro membro | T-C + Tema 640 + art. 34 Estatuto Idoso + § 14 art. 20 | `Material/SEI_8625482_Peticao.pdf` ; `Material/SEI_8647212_Oficio (1).pdf` | RR 640/STJ (A.3); ⚠️ Tema 369/TNU (B.2); B.7 |
+| C4 | Revisão por renda — **erro de apuração** (competência isolada) / filho separado de fato | T-E + T-B (art. 7º §1º II) + T-D | `Material/SEI_8632876_Oficio.pdf` | QO 20/TNU (B.4); RR 185/STJ (A.2) |
+| C5 | Revisão por renda **PCD** — dedução de **gastos médicos** | T-D + T-A | `Material/SEI_8655368_Oficio (1).pdf` ; `Material/SEI_8645501_Oficio.pdf` | RG 27/STF (A.1); RR 185/STJ (A.2) |
+| C6 | Revisão **BPC criança/menor** (TEA) — atraso INSS + renda | T-D + T-A + tese TEA (NT 15, item 2.2.1) | `Material/SEI_8645508_Oficio.pdf` | TEA sobrestado — PEDILEF 5006875 (B.1); Tema 378/TNU (B.3) |
+| C7 | **Cadastral/CadÚnico** desatualizado; **mora do CRAS** na visita domiciliar (unipessoal) | Mora estatal (art. 2º §3º Lei 15.077/2024); reativação | INFORME 43, seção II (ver `Material/_informativo_extr.txt`) | — (normativo) |
+| C8 | Revisão **biopsicossocial** PCD (perícia sem avaliação social; dispensado reavaliado) | Nulidade (Portaria 33 art. 5º dispensas; fluxo bifásico) | INFORME 43, seção IV | Tema 378/TNU + Súmulas 29/80 (B.3); B.1 |
+| C9 | **Nulidade** do processo revisional (inversão bloqueio→suspensão→cessação; sem notificação válida) | Nulidade (art. 47-D III; 90 dias; art. 5º LV CF; Lei 9.784/99) | `Material/SEI_8889677_Peticao (1).pdf` | — (normativo/processual) |
+| C10 | **Cessação** consumada → **reativação** administrativa | Reativação via ACT DPU-INSS (Portaria DIRBEN 993/2022) | `Material/SEI_8889677_Peticao (1).pdf` | — (normativo) |
+| C11 | Indeferimento/cessação → **Recurso ao CRPS** (inclusive intempestivo) | Mérito + flexibilização da tempestividade | `Material/SEI_8966463_Peticao (1).pdf` | RG 27/STF (A.1); RR 185/STJ (A.2) |
+| C12 | Tutela coletiva — exclusão do PBF da renda em âmbito regional | ACP (NT 15 + tese exclusão PBF) | `Material/5002171-51.2026.4.03.6000-1774382918459-7572820-processo.pdf` | RG 27/STF (A.1) |
+| C13 | **Bolsa Família** negado a **família unipessoal** pelo teto de 16%/município | Exceção do cadastro domiciliar (art. 6º §3º IX Portaria 897/2023) afasta o teto (Tema 379 TNU) | `Material/10361075120254013600_458597799_Acórdão.pdf` (precedente TR/SJMT) | Tema 379/TNU (externo — conferir) |
+
+> Códigos (A.x / B.x) remetem às seções da [base jurisprudencial](../jurisprudencia/base-jurisprudencial-LOAS-BPC.md). "Externo" = precedente citado, ainda não reproduzido como texto oficial na base.
 
 ---
 
