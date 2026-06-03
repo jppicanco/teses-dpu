@@ -1,0 +1,21 @@
+# ============================================================
+# DADOS SENSÍVEIS — NÃO VERSIONAR (LGPD)
+# A pasta Material/ contém peças REAIS com nome, CPF e NB de
+# assistidos (inclusive menor). Fica somente local.
+# ============================================================
+Material/
+*_extr.txt
+*.original.md
+
+# Documentos com dados pessoais em qualquer pasta
+*.pdf
+*.docx
+*.jpeg
+*.jpg
+*.png
+
+# Sistema / temporários
+Thumbs.db
+desktop.ini
+.DS_Store
+~$*
