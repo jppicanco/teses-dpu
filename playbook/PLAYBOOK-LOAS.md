@@ -19,7 +19,7 @@
    - **Enquadramento:** cruzar com a tabela de cenários (seção 3) — um caso pode reunir VÁRIOS cenários e teses cumuladas.
 3. **Lista de documentos.** O projeto indica ao defensor exatamente o que pedir ao assistido/extrair do SAT Central (ver checklist seção 5) para sustentar cada tese — e o que é prova essencial (ex.: print do CadÚnico com data da visita domiciliar).
 4. **Estratégia.** Definir via (extrajudicial primeiro? judicial direto? recurso?), ordem de pedidos (principal/subsidiário) e teses cumuladas.
-5. **Produção das peças.** Gerar a peça adaptada ao caso concreto (ofício de defesa, petição de desbloqueio/reativação, recurso ao CRPS, inicial judicial com tutela, ACP).
+5. **Produção das peças.** Gerar a peça adaptada ao caso concreto (ofício de defesa, petição de desbloqueio/reativação, recurso ao CRPS, inicial judicial com tutela, ACP). **Peça completa e minuciosa — nunca resumida:** narrar os fatos caso a caso (datas, NB, DER/DIB/DCB, despachos, valores, composição familiar, CID/laudos, gastos, canal de notificação); desenvolver cada tese a fundo (lei + Constituição + jurisprudência transcrita + subsunção ao caso, com o cálculo da renda demonstrado); esgotar teses principal/subsidiárias/complementares; pedidos detalhados e ordenados. Os modelos em `modelos/` são **esqueleto** — devem ser expandidos com os fatos e a fundamentação minuciosa do caso, não copiados enxutos.
 6. **Reforço de fundamentação.** Quando útil, buscar jurisprudência real e atualizada (MCPs CJF / Banco Nacional de Precedentes) e checar a norma vigente.
 7. **Lacunas.** Se faltar dado decisivo, o projeto questiona o defensor (ou o João Paulo) de forma objetiva, apontando por que o dado importa.
 

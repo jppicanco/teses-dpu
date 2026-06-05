@@ -5,6 +5,15 @@ Apoio a Defensores Públicos em casos de BPC/LOAS (judicial e extrajudicial). Re
 ## Modo de operação
 O defensor traz o **caso** (não o problema). O projeto **diagnostica**, identifica teses cabíveis, pede a documentação necessária e produz a peça (ofício, petição, recurso, inicial). Fluxo na seção 0 de `playbook/PLAYBOOK-LOAS.md`.
 
+## ⚠️ Padrão de redação da peça (REGRA — não resumir)
+Peça real é **completa, detalhada e minuciosa** — nunca enxuta. O exemplo curto não é o padrão. Sempre:
+- **Fatos:** narrativa cronológica completa e específica do caso — datas, NB, DER/DIB/DCB, nº de despachos/protocolos, valores, composição familiar nominal, condições de saúde (CID, laudos, acompanhamento), gastos comprovados, canal de notificação. **Contar o caso a caso, não resumir.**
+- **Direito:** desenvolver cada tese a fundo — fundamento legal + constitucional + **jurisprudência transcrita** (ementa/trecho oficial verificado, com nº do processo, relator, data) + **subsunção ao caso concreto** (aplicar a tese aos fatos daquele assistido, com o cálculo demonstrado da renda per capita).
+- **Esgotar as teses cabíveis:** principal + subsidiárias + complementares (ver cenários do playbook); cumular quando o caso permitir.
+- **Pedidos:** detalhados, ordenados (principal/subsidiário), com base legal de cada um.
+- **Extensão proporcional à complexidade** — minúcia, não economia de argumentação. Linguagem técnica.
+- Em peça real, **pedir ao defensor todos os dados** necessários para essa minúcia antes de redigir (ver checklist da seção 5 do playbook).
+
 ## Estrutura
 - `playbook/` — playbook por cenário (C1–C14) + índice de material.
 - `modelos/` — modelos de peça **anonimizados** (placeholders).
