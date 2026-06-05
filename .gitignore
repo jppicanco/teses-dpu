@@ -14,13 +14,13 @@ Material/
 *.jpg
 *.png
 
-# Exceções: assets da skill de formatação (institucionais, sem dado pessoal)
-!skills/formatacao-docx/assets/
-!skills/formatacao-docx/assets/**
-!skills/**/*.png
-!skills/**/*.jpg
-!skills/**/*.docx
-!skills/**/*.ttf
+# Exceções: assets das skills compartilhadas (institucionais, sem dado pessoal)
+!comum/skills/**/assets/
+!comum/skills/**/assets/**
+!comum/**/*.png
+!comum/**/*.jpg
+!comum/**/*.docx
+!comum/**/*.ttf
 
 # Saída de peças geradas (pode conter dados do assistido) — NUNCA versionar
 saida/

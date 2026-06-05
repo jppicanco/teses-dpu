@@ -1,74 +1,40 @@
-# Projeto BPC/LOAS — Apoio à Defensoria
+# Teses DPU
 
-Material de apoio para **Defensores Públicos** atuarem em casos de **Benefício de Prestação Continuada (BPC/LOAS)** — concessão, manutenção, revisão, suspensão, cessação e recursos — nas vias **judicial e extrajudicial**.
+Coleção de projetos de apoio a **Defensores Públicos**, organizada por **área do direito**. Cada área reúne playbook por cenário, modelos de peça anonimizados e base jurisprudencial; a infraestrutura comum (skills de validação e formatação, blocos genéricos) é compartilhada por todas.
 
-Reúne um **playbook por cenário** (tese + base legal + estratégia + modelo) e **modelos de peça anonimizados** (ofícios de defesa, petições, recurso ao CRPS e inicial judicial), construídos a partir do material da DPU/CCRPREV e da prática da DPU/MA.
+> Material de apoio técnico-jurídico. Não substitui a análise do caso concreto pelo(a) Defensor(a) responsável.
 
-> ⚠️ **Foco atual:** o endurecimento do acesso ao BPC pelo **Decreto nº 12.534/2025** — em especial o **cômputo do Bolsa Família** e de pensões indenizatórias na renda per capita, a biometria e a revisão automática.
+## Áreas disponíveis
 
----
+| Área | Pasta | Cobertura |
+|---|---|---|
+| **BPC/LOAS** | [`areas/bpc-loas/`](areas/bpc-loas/) | Benefício de Prestação Continuada — concessão, revisão, suspensão, cessação e recursos (judicial e extrajudicial). 14 cenários, 10 modelos, base STF/STJ/TNU. Foco no Decreto 12.534/2025. |
+| _(próximas)_ | `areas/<area>/` | aposentadoria rural, auxílio por incapacidade, etc. |
+
+## Infraestrutura comum
+
+| Pasta | O que é |
+|---|---|
+| [`comum/skills/`](comum/skills/) | Pipeline: **anti-alucinação** (valida origem de citações) → **formatação** (gera DOCX+PDF institucional) → **checagem final** (verifica o PDF). Usado por todas as áreas. |
+| [`comum/modelos-base/`](comum/modelos-base/) | Blocos genéricos de peça (gratuidade, prerrogativas DPU, prioridade, tutela de urgência). |
 
 ## Como usar
-
-1. Leia **[`playbook/PLAYBOOK-LOAS.md`](playbook/PLAYBOOK-LOAS.md)** — o coração do projeto.
-2. Identifique o **cenário** do seu caso na tabela de roteamento (seção 3).
-3. Use o **modelo** correspondente em **[`modelos/`](modelos/)** e adapte ao caso concreto.
-4. Consulte o **[índice de material](playbook/INDICE-MATERIAL.md)** para localizar normas e precedentes.
-
-### O projeto recebe o CASO, não o problema
-O defensor traz a situação e os documentos; o diagnóstico (identificar problemas, teses cabíveis, documentos a pedir e peças a produzir) é tarefa do projeto. Fluxo completo na seção 0 do playbook.
-
----
-
-## Estrutura
-
-```
-playbook/
-  PLAYBOOK-LOAS.md      Playbook por cenário (C1–C13): tese, base legal, modelo, pedidos
-  INDICE-MATERIAL.md    Índice de modelos, normas e precedentes
-modelos/                Modelos de peça ANONIMIZADOS (placeholders [NOME], [CPF], [NB]…)
-jurisprudencia/
-  base-jurisprudencial-LOAS-BPC.md   Precedentes STF/STJ/TNU — texto oficial (BNP/CJF), sem alteração
-skills/                 Pipeline de produção: anti-alucinação → formatação (DOCX+PDF) → checagem final
-```
-
-## Produção da peça (skills)
-Depois de redigir a peça a partir de um modelo, o projeto entrega o documento final pronto via [`skills/`](skills/README.md):
-1. **[anti-alucinação](skills/anti-alucinacao/SKILL.md)** — valida a origem de toda citação (processo, súmula, tema, relator, trecho); o que não tem fonte é removido ou generalizado.
-2. **[formatação](skills/formatacao-docx/SKILL.md)** — gera **DOCX + PDF** com layout institucional (cabeçalho, barra lateral com pedido/sumário, rodapé, assinatura). Assinatura configurável por defensor.
-3. **[checagem final](skills/checagem-final/CHECKLIST.md)** — checklist + `verificar_pdf.py` (páginas, acentos, assinatura).
+1. Entre na área do seu caso (ex.: [`areas/bpc-loas/`](areas/bpc-loas/)) e leia o playbook.
+2. Identifique o cenário, pegue o modelo e expanda com os dados do caso (peça **completa e minuciosa**).
+3. Rode o pipeline de `comum/skills/` para validar e gerar DOCX+PDF.
 
 ```bash
-pip install -r skills/formatacao-docx/requirements.txt
+pip install -r comum/skills/formatacao-docx/requirements.txt
 export FORMATAR_PECA_NOME="Seu Nome"   # cada defensor configura a sua assinatura
 ```
 
-## Base jurisprudencial
-[`jurisprudencia/base-jurisprudencial-LOAS-BPC.md`](jurisprudencia/base-jurisprudencial-LOAS-BPC.md) reúne precedentes vinculantes (STF/STJ) e acórdãos recentes da TNU, reproduzidos **ipsis litteris** dos bancos oficiais (BNP/CNJ e CJF), com explicações do redator claramente separadas. Cobre: miserabilidade (RG 27/STF, RR 185/STJ), exclusão de renda (Tema 640/STJ, **Tema 369/TNU**), grupo familiar (QO 20/TNU), conceito de deficiência (Tema 378/TNU + Súmulas 29/80), TEA e teto recursal (Tema 807/STF).
+## Como adicionar uma nova área
+1. Crie `areas/<nova-area>/` com `playbook/`, `modelos/`, `jurisprudencia/` e um `CLAUDE.md` próprio.
+2. Reuse `comum/skills/` e `comum/modelos-base/` — não duplique.
+3. Adicione a área à tabela acima.
 
----
-
-## ⚠️ Privacidade e LGPD
-
-Este repositório **não contém dados pessoais**. Os modelos foram **anonimizados** (todo nome, CPF, NB e data viraram placeholders). As peças reais que originaram os modelos **não** estão aqui — permanecem locais.
-
-**Ao adaptar um modelo, nunca versione/publique a versão preenchida com dados do assistido.** Mantenha os arquivos preenchidos fora de qualquer repositório público.
-
----
-
-## Como contribuir
-
-Colegas defensores podem contribuir com novos cenários, teses e modelos:
-
-1. Faça um *fork* e crie um *branch*.
-2. Adicione/edite modelos em `modelos/` **sempre anonimizados**.
-3. Atualize o playbook e o índice se incluir um cenário novo.
-4. Abra um *Pull Request* descrevendo o caso-tipo coberto.
-
-**Regra inegociável:** nenhum PR pode conter nome, CPF, NB, endereço ou qualquer dado de pessoa real.
-
----
+## Privacidade (LGPD)
+Repositório público, **sem dados pessoais**. Peças reais ficam locais (`**/Material/`, gitignored); modelos são anonimizados (placeholders). Saída gerada (`saida/`) é gitignored. Detalhes e regras em [`CLAUDE.md`](CLAUDE.md).
 
 ## Licença
-
-[CC BY 4.0](LICENSE) — uso e adaptação livres, com atribuição. Material de apoio; não substitui a análise do caso concreto pelo defensor responsável.
+[CC BY 4.0](LICENSE) — uso e adaptação livres, com atribuição.

@@ -1,6 +1,6 @@
 # Skills — pipeline de produção de peças
 
-Conjunto de skills que pega a peça redigida (a partir do [playbook](../playbook/PLAYBOOK-LOAS.md) e dos [modelos](../modelos/)) e a entrega **validada e formatada em DOCX + PDF**.
+Skills **compartilhadas** por todas as áreas (`areas/<area>/`). Pegam a peça redigida (a partir do playbook e dos modelos da área) e a entregam **validada e formatada em DOCX + PDF**. São autocontidas — qualquer área chama `comum/skills/...` sem duplicar.
 
 ## Pipeline
 

@@ -1,7 +1,7 @@
 # Skill: Formatação de Peças Jurídicas em .docx
 
-> **Adaptação para o Projeto BPC/LOAS.** O engine (`formatar_peca.py`) é portátil:
-> - **Template** padrão: `skills/formatacao-docx/assets/template_dpu.docx` (letterhead institucional, sem dado pessoal). Override: env `FORMATAR_PECA_TEMPLATE`.
+> **Skill compartilhada (monorepo).** O engine (`formatar_peca.py`) é portátil e serve a todas as áreas (`areas/<area>/`):
+> - **Template** padrão: `comum/skills/formatacao-docx/assets/template_dpu.docx` (letterhead institucional, sem dado pessoal). Override: env `FORMATAR_PECA_TEMPLATE`.
 > - **Saída** padrão: `./saida` (gitignored). Override: env `FORMATAR_PECA_SAIDA_DIR`.
 > - **Assinatura** parametrizável (default = placeholder): env `FORMATAR_PECA_NOME` / `_CARGO` / `_LOCAL`, ou argumentos `assinatura_nome=`, `assinatura_cargo=`, `assinatura_local=` em `criar_documento(...)`.
 > - Rode a [anti-alucinação](../anti-alucinacao/SKILL.md) **antes** e a [checagem final](../checagem-final/CHECKLIST.md) **depois**.
