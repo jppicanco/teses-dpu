@@ -29,6 +29,18 @@ playbook/
 modelos/                Modelos de peça ANONIMIZADOS (placeholders [NOME], [CPF], [NB]…)
 jurisprudencia/
   base-jurisprudencial-LOAS-BPC.md   Precedentes STF/STJ/TNU — texto oficial (BNP/CJF), sem alteração
+skills/                 Pipeline de produção: anti-alucinação → formatação (DOCX+PDF) → checagem final
+```
+
+## Produção da peça (skills)
+Depois de redigir a peça a partir de um modelo, o projeto entrega o documento final pronto via [`skills/`](skills/README.md):
+1. **[anti-alucinação](skills/anti-alucinacao/SKILL.md)** — valida a origem de toda citação (processo, súmula, tema, relator, trecho); o que não tem fonte é removido ou generalizado.
+2. **[formatação](skills/formatacao-docx/SKILL.md)** — gera **DOCX + PDF** com layout institucional (cabeçalho, barra lateral com pedido/sumário, rodapé, assinatura). Assinatura configurável por defensor.
+3. **[checagem final](skills/checagem-final/CHECKLIST.md)** — checklist + `verificar_pdf.py` (páginas, acentos, assinatura).
+
+```bash
+pip install -r skills/formatacao-docx/requirements.txt
+export FORMATAR_PECA_NOME="Seu Nome"   # cada defensor configura a sua assinatura
 ```
 
 ## Base jurisprudencial

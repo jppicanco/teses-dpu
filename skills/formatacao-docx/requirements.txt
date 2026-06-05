@@ -1,0 +1,9 @@
+# Dependências da skill de formatação
+python-docx>=1.1.0
+lxml>=4.9.0
+
+# Conversão DOCX -> PDF (escolha UMA):
+#  - Windows com MS Word instalado:
+docx2pdf>=0.1.8
+#  - Linux/Mac (ou Windows sem Word): instalar LibreOffice e garantir
+#    'soffice'/'libreoffice' no PATH. O engine detecta e usa automaticamente.

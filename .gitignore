@@ -14,8 +14,23 @@ Material/
 *.jpg
 *.png
 
+# Exceções: assets da skill de formatação (institucionais, sem dado pessoal)
+!skills/formatacao-docx/assets/
+!skills/formatacao-docx/assets/**
+!skills/**/*.png
+!skills/**/*.jpg
+!skills/**/*.docx
+!skills/**/*.ttf
+
+# Saída de peças geradas (pode conter dados do assistido) — NUNCA versionar
+saida/
+
 # Sistema / temporários
 Thumbs.db
 desktop.ini
 .DS_Store
 ~$*
+
+# Python cache
+__pycache__/
+*.pyc
