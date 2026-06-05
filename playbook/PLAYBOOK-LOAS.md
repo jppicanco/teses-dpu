@@ -85,6 +85,9 @@ Dedutíveis da renda bruta: tratamentos de saúde, fraldas, alimentos especiais 
 ### T-E. Apuração de renda pelo critério mais favorável (art. 29, Portaria 34/2025)
 Renda per capita = **menor valor** entre (i) renda do último mês e (ii) média dos últimos 12 meses. Erro recorrente do INSS: eleger competência isolada (mês alto) em vez do mês imediatamente anterior à revisão ou da média.
 
+### T-F. Nulidade por notificação inacessível a PcD (art. 5º, §§ 1º-2º, Lei 13.146/2015)
+Notificação do processo revisional feita **exclusivamente por canal digital** (app/portal Meu INSS, Central 135, "Aplicações Parceiras") é **inválida** quando o beneficiário é PcD intelectual/severa sem capacidade de acessar meios digitais. O Estatuto da PcD impõe comunicação em **formato acessível** ao perfil do destinatário; notificação que ignora a condição funcional não produz efeitos (nulidade absoluta — art. 5º, LV, CF). **Prova decisiva:** HISCRE mostrando bloqueio isolado seguido de **retomada automática dos pagamentos sem defesa** = ausência de ciência efetiva (o bloqueio não cumpriu sua função comunicativa do art. 47-C). É **fundamento autônomo** de restabelecimento, independe do mérito da renda. Modelo: [`10-emenda-nulidade-notificacao-digital-pcd.md`](../modelos/10-emenda-nulidade-notificacao-digital-pcd.md).
+
 ---
 
 ## 3. Tabela de roteamento — cenário → tese → modelo
@@ -104,6 +107,7 @@ Renda per capita = **menor valor** entre (i) renda do último mês e (ii) média
 | C11 | Indeferimento/cessação → **Recurso ao CRPS** (inclusive intempestivo) | Mérito + flexibilização da tempestividade | `Material/SEI_8966463_Peticao (1).pdf` | RG 27/STF (A.1); RR 185/STJ (A.2) |
 | C12 | Tutela coletiva — exclusão do PBF da renda em âmbito regional | ACP (NT 15 + tese exclusão PBF) | `Material/5002171-51.2026.4.03.6000-1774382918459-7572820-processo.pdf` | RG 27/STF (A.1) |
 | C13 | **Bolsa Família** negado a **família unipessoal** pelo teto de 16%/município | Exceção do cadastro domiciliar (art. 6º §3º IX Portaria 897/2023) afasta o teto (Tema 379 TNU) | `Material/10361075120254013600_458597799_Acórdão.pdf` (precedente TR/SJMT) | Tema 379/TNU (externo — conferir) |
+| C14 | BPC cessado por cômputo de **aposentadoria por idade RURAL** de membro **< 65 anos** | T-C + relativização etária (rural = equiparação, art. 194 II CF) + gênero (art. 5º I, 226 §5º) + T-F se notificação só digital a PcD | modelos `09` (inicial restabelecimento) + `10` (emenda nulidade) | RR 640/STJ (A.3); RG 27/STF (A.1); RR 185/STJ (A.2) |
 
 > Códigos (A.x / B.x) remetem às seções da [base jurisprudencial](../jurisprudencia/base-jurisprudencial-LOAS-BPC.md). "Externo" = precedente citado, ainda não reproduzido como texto oficial na base.
 
@@ -193,6 +197,16 @@ Renda per capita = **menor valor** entre (i) renda do último mês e (ii) média
 **Precedente:** `Material/10361075120254013600_458597799_Acórdão.pdf` — RI 1036107-51.2025.4.01.3600, 1ª Turma Recursal SJMT (TRF1), embargos acolhidos com efeitos infringentes; inclusão imediata no PBF + parcelas retroativas desde a atualização domiciliar + tutela de urgência (implantação em 30 dias). PCD múltipla, renda per capita R$ 200,00.
 **Prova essencial:** comprovante do Portal CadÚnico indicando forma de coleta "Em domicílio" e data ≥ 31/07/2023.
 **Observação:** cenário do Programa Bolsa Família (adjacente ao BPC), relevante no universo das famílias unipessoais; ver também `Material/Apresentação DPU - Bolsa Família para Unipessoais - maio 2026.pdf`.
+
+### C14 — BPC cessado por cômputo de aposentadoria por idade RURAL de membro com menos de 65 anos
+**Quando:** INSS cessou/indeferiu o BPC computando aposentadoria por idade **rural** de valor mínimo de membro do grupo (em regra mãe/avó) que ainda **não tem 65 anos** (aposentada aos 55/60). A renda per capita "estoura" ¼ SM só por isso.
+**Tese principal (T-C):** benefício de até 1 SM de idoso/PCD não se computa (§ 14, art. 20, LOAS; art. 34, par. único, Estatuto do Idoso; **STJ Tema 640**). Excluído, a renda per capita despenca abaixo do limite.
+**Tese nova (relativização etária):** mesmo na leitura literal do § 14 (que fala em idoso **≥ 65**), a aposentadoria **rural** deve ser excluída **independentemente da idade < 65**, porque a idade reduzida rural (60 H / 55 M — art. 201, § 7º, II, CF; art. 48, § 2º, Lei 8.213/91) é **equiparação** constitucional ao trabalhador urbano (art. 194, II, CF), não vantagem; o valor é idêntico (1 SM) e vinculado ao mínimo existencial. Tratar a aposentada rural de 55 pior que a urbana de 65 viola o art. 5º, caput, CF.
+**Tese nova (gênero):** o critério etário neutro produz efeito **estruturalmente discriminatório** contra mulheres rurais (aposentam aos 55, sem direitos trabalhistas plenos). Violação aos arts. 5º, I, e 226, § 5º, CF, à vedação ao retrocesso e à função protetiva da seguridade.
+**Subsidiária:** relativização do critério de renda (RE 567.985/Tema 27; Temas 185/640; **art. 20-B da LOAS** — Lei 14.176/2021) + dedução de gastos de saúde (T-D).
+**Combinar com:** quando a notificação revisional foi só digital e o titular é PcD intelectual → emendar com a **nulidade (T-F)** como fundamento autônomo.
+**Modelos:** [`09-inicial-judicial-restabelecimento-rural-65.md`](../modelos/09-inicial-judicial-restabelecimento-rural-65.md) + [`10-emenda-nulidade-notificacao-digital-pcd.md`](../modelos/10-emenda-nulidade-notificacao-digital-pcd.md).
+**Precedente:** RR 640/STJ (A.3); RG 27/STF (A.1); RR 185/STJ (A.2). ⚠️ atenção ao Tema 369/TNU (não deduzir 1 SM de benefício superior).
 
 ---
 

@@ -15,3 +15,5 @@ Convenção de placeholders: `[NOME]`, `[CPF]`, `[NB]`, `[DER]`, `[DATA]`, `[PRO
 | [`06-peticao-reativacao-cessacao-act.md`](06-peticao-reativacao-cessacao-act.md) | C9/C10 | Reativação de BPC cessado (via ACT DPU-INSS) |
 | [`07-recurso-crps-flexibilizacao.md`](07-recurso-crps-flexibilizacao.md) | C11 | Recurso ao CRPS com flexibilização de tempestividade |
 | [`08-inicial-judicial-computo-bolsa-familia.md`](08-inicial-judicial-computo-bolsa-familia.md) | C1 | Ação judicial (JEF) — BPC indeferido por cômputo do Bolsa Família |
+| [`09-inicial-judicial-restabelecimento-rural-65.md`](09-inicial-judicial-restabelecimento-rural-65.md) | C14 | Ação judicial — restabelecimento de BPC/PcD cessado por cômputo de aposentadoria por idade **rural** de membro **< 65 anos** (relativização etária + gênero) |
+| [`10-emenda-nulidade-notificacao-digital-pcd.md`](10-emenda-nulidade-notificacao-digital-pcd.md) | T-F / C8-C9 | Emenda/preliminar — nulidade por **notificação só digital** a beneficiário **PcD** sem acesso digital |

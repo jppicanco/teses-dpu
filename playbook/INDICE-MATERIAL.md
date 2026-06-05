@@ -40,6 +40,8 @@ Catálogo dos arquivos-fonte: o que é cada um, natureza e quando usar. Roteamen
 | `Material/SEI_8889677_Peticao (1).pdf` | C9/C10 | Defesa + reativação de cessação via ACT DPU-INSS (Portaria DIRBEN 993/2022) |
 | `Material/SEI_8966463_Peticao (1).pdf` | C11 | Recurso ao CRPS com pedido de flexibilização de tempestividade |
 | `Material/Inicial-padrao. BPC LOAS. Concessao. Computo BF na renda (2).docx` | C1 | **Inicial judicial (JEF)** — concessão de BPC indeferido por cômputo do Bolsa Família, c/ tutela de urgência |
+| `Material/Inicial REV LOAS-superação renda.pdf` | C14 | **Inicial judicial** — restabelecimento de BPC/PcD cessado por cômputo de aposentadoria por idade **rural** de membro < 65 anos. Tese nova: relativização etária (equiparação rural, art. 194 II CF) + dimensão de gênero. → modelo `09` |
+| `Material/Emenda_Inicial_[caso]_Notificacao.pdf` | T-F / C8-C9-C14 | **Emenda à inicial** — preliminar de **nulidade** por notificação só digital a beneficiário PcD intelectual (art. 5º §§1-2 Lei 13.146/2015); HISCRE como prova de ausência de ciência. → modelo `10` |
 
 ## Jurisprudência / peças coletivas
 
